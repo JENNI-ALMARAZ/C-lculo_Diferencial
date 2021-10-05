@@ -1,21 +1,21 @@
 % Octave script
-% Title 	:Clasificación de los Números
-% Description 	:Script para recordar conceptos de números 
-% Autor 	:Jennifer Almaraz Suárez 
+% Title 	:ClasificaciÃ³n de los NÃºmeros
+% Description 	:Script para recordar conceptos de nÃºmeros 
+% Autor 	:Jennifer Almaraz SuÃ¡rez 
 % Date 		:20210927
 % Version	:1
 % Usage		:octave>cd /path/
 %		:octave>Clasificacion_Numeros
-%		:Requiere aplicación octave, usar su línea de comandos 
+%		:Requiere aplicaciÃ³n octave, usar su lÃ­nea de comandos 
 
 clear 
 c_numeros_Naturales = 'N= {1, 2, 3, .... n} si n > 0';
 c_numeros_Enteros = 'Z= { -n..., -2, -1, 0, 1, 2,..n }';
-c_numeros_Racionales = 'Q={ m/n dónde m,n pertenecen al R y n no es igual a 0}';
-c_numeros_Irracionales = 'I= {raíz cuadrada de n que no puede ser expresada como Q todas las raices que no son exactas}'; 
+c_numeros_Racionales = 'Q={ m/n dÃ³nde m,n pertenecen al R y n no es igual a 0}';
+c_numeros_Irracionales = 'I= {raÃ­z cuadrada de n que no puede ser expresada como Q todas las raices que no son exactas}'; 
 c_numeros_Reales = 'R= { I, Q, Z, N}';
 
-% Propiedades de los números, donde a,b,c,d,e pertenezcan al R 
+% Propiedades de los nÃºmeros, donde a,b,c,d,e pertenezcan al R 
 
 % Propiedades de cerradura 
 p_cerradura = 'a + b pertenece al R';
@@ -28,7 +28,7 @@ a+b
 a*b 
 
 %Propiedad asociativa 
-p_asociativa = 'a + ( b + c ) = (a + b) + c';
+p_asociativa  = 'a + ( b + c ) = (a + b) + c';
 p_asociativa2 = 'a ( b c ) = ( a b ) c'; 
 p_asociativa3 = '3 + ( 8 - 10 ) = ( 8 + 3 ) - 10';
 c=8;
@@ -84,7 +84,7 @@ b+(-b)
 c+(-c)
 0
 
-%Inverso multiplicativo o recíproco 
+%Inverso multiplicativo o recÃ­proco 
 p_inversoM = 'a ( 1/a ) = 1';
 a*(1/a)
 1
@@ -97,10 +97,10 @@ c*(1/c)
 p_transitiva = 'si a > b y b > c | a > c';
 p_transitiva2 = 'si a = b y  b = c | a = c'; 
 
-%Tricotomía (raíz del álgebra) siempre se puede comparar
+%TricotomÃ­a (raÃ­z del Ã¡lgebra) siempre se puede comparar
 p_tricotomia = 'a > b';
 p_tricotomia2 = 'a = b';
 p_tricotomia3 = 'a < b';
 
-%signos de agrupación 
+%signos de agrupaciÃ³n 
 s_agrupacion = '{ [ ( ) ]| }';
