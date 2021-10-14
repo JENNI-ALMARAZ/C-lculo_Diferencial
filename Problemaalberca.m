@@ -1,6 +1,6 @@
 % Title		:Funcion minimo material para la alberca 
 % Description	:Script para graficar una funcion de el tamaño de una alberca 
-% Author	:Jennifer Almaraz Suarez, Astrit Lariza Garcia Castillo
+% Author	:Jennifer Almaraz Suarez, Astrit Lariza Garcia Castillo, Patricia Zaragoza Palma 
 % Date		:20211014
 % Version	:1
 % Usage		:octave> /path/Problemaalberca
